@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.envc
+
+# Local data and database files
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Logs
+npm-debug.log*
+*.log
+
+# OS and editor files
+.DS_Store
+.vscode/
